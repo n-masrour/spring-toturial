@@ -32,7 +32,7 @@ http://www.springframework.org/schema/context/spring-context-3.1.xsd
 
 
 	<bean id="myUserDetailsService"
-		  class="com.tutorial.spring.Service.UserDetailsServiceImp"/>
+		  class="com.tutorial.spring.service.UserDetailsServiceImp"/>
 
 	<security:authentication-manager>
 		<security:authentication-provider

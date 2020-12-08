@@ -1,4 +1,4 @@
-package com.tutorial.spring.Service;
+package com.tutorial.spring.service;
 
 import com.tutorial.spring.entity.Role;
 import com.tutorial.spring.repository.RoleRepository;

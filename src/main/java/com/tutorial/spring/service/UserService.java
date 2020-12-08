@@ -1,9 +1,8 @@
-package com.tutorial.spring.Service;
+package com.tutorial.spring.service;
 
 import com.tutorial.spring.entity.User;
 import com.tutorial.spring.repository.RoleRepository;
 import com.tutorial.spring.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

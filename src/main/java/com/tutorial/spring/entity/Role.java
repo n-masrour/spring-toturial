@@ -15,11 +15,6 @@ public class Role extends AbstractEntity implements Cloneable {
     @Column(name = "name")
     private String name;
 
-    @NotEmpty
-    @NotNull
-    @Column(name = "userId")
-    private Integer userId;
-
     @OneToMany(mappedBy = "permission", fetch = FetchType.EAGER)
     @Column(name = "permissions")
     private List<Permission> permissions = new LinkedList<>();
@@ -30,14 +25,6 @@ public class Role extends AbstractEntity implements Cloneable {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
     }
 
     public List<Permission> getPermissions() {
