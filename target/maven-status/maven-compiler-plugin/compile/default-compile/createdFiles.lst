@@ -1,0 +1,10 @@
+com\tutorial\spring\repository\CrudRepository.class
+com\tutorial\spring\Service\RoleService.class
+com\tutorial\spring\entity\AbstractEntity.class
+com\tutorial\DemoApplication.class
+com\tutorial\spring\repository\RoleRepository.class
+com\tutorial\spring\entity\User.class
+com\tutorial\spring\entity\Role.class
+com\tutorial\spring\entity\Permission.class
+com\tutorial\spring\repository\UserRepository.class
+com\tutorial\spring\Service\UserService.class
